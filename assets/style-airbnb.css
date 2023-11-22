@@ -1,0 +1,40 @@
+.container {
+        display: flex;
+        justify-content: space-between;
+        border: solid 1px red;
+        align-items: center;
+    }
+
+.imagelogo{
+    height: 40px;;
+}
+
+
+.searchBarre{
+    border: 2px solid black;
+    display: flex
+}
+
+.searchBarre > .searchInput{
+    height: 30px;
+    border: 2px solid black;
+    border-radius: 3%;
+}
+
+.logo{
+    size: 100px;
+    ;
+}
+
+.mainContent{
+    display: flex;
+    flex-wrap: wrap;
+    ;
+}
+
+.image {
+    width: 300px;
+    height: 300px;
+    border-radius: 10%;
+    object-fit: cover;
+}
